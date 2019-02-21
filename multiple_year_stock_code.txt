@@ -1,0 +1,53 @@
+Sub stockdata()
+
+   Cells(1, "I").Value = "Ticker"
+   Cells(1, "J").Value = "Total Stock Volume"
+  
+  'Dim WS_Count As Integer
+  'Dim I As Integer
+  Dim tIcker_name As String
+  Dim total_volume As Double
+  total_volume = 0
+
+  
+  Dim Summary_Table_Row As Integer
+  Summary_Table_Row = 2
+  
+   LastRow = Cells(Rows.Count, 1).End(xlUp).Row
+  
+  For I = 2 To LastRow
+
+   
+    If Cells(I + 1, 1).Value <> Cells(I, 1).Value Then
+
+    
+      tIcker_name = Cells(I, 1).Value
+
+      
+      total_volume = total_volume + Cells(I, 7).Value
+
+      
+      Range("I" & Summary_Table_Row).Value = tIcker_name
+
+      
+      Range("J" & Summary_Table_Row).Value = total_volume
+
+     
+      Summary_Table_Row = Summary_Table_Row + 1
+      
+    
+      total_volume = 0
+
+   
+    Else
+
+      
+      total_volume = total_volume + Cells(I, 7).Value
+
+    End If
+ Next I
+End Sub
+
+
+
+

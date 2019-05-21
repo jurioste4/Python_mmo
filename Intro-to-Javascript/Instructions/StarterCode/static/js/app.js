@@ -31,7 +31,8 @@ var submit = d3.select("#filter-btn");
 
 
 var inputDate = d3.select("#datetime");
-
+var inputCity = d3.select("#city");
+var inputState = d3.select("#state");
 
 submit.on("click", function() {
   d3.event.preventDefault();

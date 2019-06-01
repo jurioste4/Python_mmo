@@ -24,23 +24,23 @@ function buildCharts(sample) {
 
   var url = '/samples/' + sample;
   console.log("Url", url);
-
-  d3.json(url).then(function(data) {
+  // @TODO: Build a Bubble Chart using the sample data
+  d3.json(url).then(function (data) {
     console.log("data", data);
+    // @TODO: Build a Pie Chart
 
-
-    var pie_layout = {
-      title: "Pie Chart"
+    var layout = {
+      title: "Bacterial Samples"
     };
-
-
+    // HINT: You will need to use slice() to grab the top 10 sample_values,
+    // otu_ids, and labels (10 each).
     var bac = [{
       values: data.sample_values.slice(0, 11),
       labels: data.otu_ids.slice(0, 11),
       type: "pie"
     }];
 
-    Plotly.newPlot("pie", bac , pie_layout);
+    Plotly.newPlot("pie", bac , layout);
 
     var trace = [{
       x: data.otu_ids,

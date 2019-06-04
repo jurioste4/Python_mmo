@@ -1,6 +1,6 @@
-body {
+/* body {
     background: url(image.jpg);
-}
+} */
 
 .col-md-12 {
     background: url(image_two.jpg);
@@ -27,8 +27,8 @@ a:hover {
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
 *,
-:before,
-:after {
+ :before,
+ :after {
     box-sizing: border-box;
 }
 

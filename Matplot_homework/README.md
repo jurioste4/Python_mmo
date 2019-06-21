@@ -1,16 +1,31 @@
-# Pyber
- Seeing the success of notable players like Uber and Lyft, company's complete recordset of rides. This contains information about every active driver and historic ride, including details like city, driver count, individual fares, and city type.
+
 
 # I was talked with  build a Bubble Plot that showcases the relationship between four key variables:
 Average Fare ($) Per City
+
 Total Number of Rides Per City
+
 Total Number of Drivers Per City
+
 City Type (Urban, Suburban, Rural)
 
+![Bubble plot](image/ride_sharing_scatter.jpg)
+
 # In addition, I was able to three pie charts:
+
 % of Total Fares by City Type
+
+![Pie Chart](image/ride_total_pie.jpg)
+
 % of Total Rides by City Type
+
+![Pie Chart](image/ride_rides_pie.jpg)
+
+
 % of Total Drivers by City Type
+
+
+![Pie Chart](image/ride_Drivers_pie.jpg)
 
 # As final considerations:
 

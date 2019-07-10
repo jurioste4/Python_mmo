@@ -1,5 +1,0 @@
-total Months:,86
-Profit total:,38382578
-Avearge Per Month:,446309.0465116279
-min value:,-1196225.0
-max value:,1170593.0

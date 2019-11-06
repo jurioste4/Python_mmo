@@ -7,8 +7,9 @@ Like many others in its genre, the game is free-to-play, but players are encoura
 
 below is my insights I used juypter notebook pandas and numpy and a data source  from a csv file. 
 
+or review the file main.ipynb 
 I also built a website can see here https://jurioste4.github.io/pythonmmo/index.html
-
+to see website code see https://github.com/jurioste4/jurioste4.github.io/tree/master/pythonmmo and index.html
 
 # my insights 
 Gender

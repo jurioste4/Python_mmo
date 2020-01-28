@@ -22,7 +22,7 @@ Other / Non-Disclosed     1.410256
 
 more males then females pay this game 
 
-# purcheing by gender 
+# purchasing by gender 
 
          mean         sum            std                len
 
